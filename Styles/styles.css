@@ -165,31 +165,10 @@ html {
   flex-direction: column;
 }
 
-.image-container img {
+.main-image {
   width: 70%;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.second-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.second-row {
-  display: flex;
-  justify-content: center;
-}
-
-.second {
-  display: flex;
-  justify-content: center;
-  font-family: "Montserrat";
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 52.8px;
-  text-align: center;
-  color: rgb(17, 17, 17);
 }
 
 .over-image-row {
@@ -212,7 +191,7 @@ html {
   padding-bottom: 20px;
   background: white;
   bottom: 2;
-  transform: translateY(100%);
+  transform: translateY(150%);
 }
 
 .over-image {
@@ -240,6 +219,27 @@ html {
   text-align: center;
 }
 
+.second-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.second-row {
+  display: flex;
+  justify-content: center;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 52.8px;
+  text-align: center;
+  color: rgb(17, 17, 17);
+}
+
 @media only screen and (max-width: 1200px) {
   .hero-image-top {
     left: 13.5%;
@@ -255,7 +255,7 @@ html {
   }
 }
 @media only screen and (max-width: 1200px) {
-  .image-container img {
+  .main-image {
     width: 85%;
   }
 }
@@ -276,6 +276,12 @@ html {
   }
   .hero-heading {
     font-size: 40px;
+  }
+}
+@media only screen and (max-width: 775px) {
+  .over-image-row {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
 }
 @media only screen and (max-width: 770px) {
@@ -308,6 +314,17 @@ html {
   }
   .image-container {
     height: 500px;
+  }
+  .main-image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .second-container {
+    margin-top: 400px;
+  }
+  .over-image-row {
+    margin-top: 400px !important;
   }
 }
 @media only screen and (max-width: 570px) {
@@ -353,6 +370,12 @@ html {
   .image-container {
     height: 300px;
     width: 100%;
+  }
+  .over-image-row {
+    margin-top: 500px !important;
+  }
+  .second-container {
+    margin-top: 500px;
   }
 }
 @media only screen and (max-width: 480px) {
