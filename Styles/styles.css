@@ -519,6 +519,7 @@ html {
 
 .panels-container {
   background: rgb(229, 229, 229);
+  padding-bottom: 60px;
 }
 
 .panels-row {
@@ -591,6 +592,74 @@ html {
   transition: 0.3s;
   background: black;
   color: white;
+}
+
+.corousal-container {
+  margin-top: 60px;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+
+.corousal-left-container {
+  display: flex;
+}
+
+.corousal-left {
+  padding: 30px 20px 30px 0px;
+  padding-right: 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-right: 13px solid rgb(249, 124, 55);
+  height: 100%;
+}
+
+.corousal-middle {
+  padding: 30px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.corousal-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.corousal-heading {
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 52.8px;
+  text-align: left;
+  color: rgb(17, 17, 17);
+}
+
+.corousal-text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 25.6px;
+  color: rgb(17, 17, 17);
+}
+
+.corousal-button {
+  background-color: rgb(249, 124, 55);
+  color: white;
+  border-radius: 11px;
+  padding: 18px 54px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: none;
+  margin-top: 40px;
+}
+
+.corousal-image {
+  width: 90%;
 }
 
 @media only screen and (max-width: 1200px) {

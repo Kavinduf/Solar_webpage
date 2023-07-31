@@ -586,6 +586,7 @@ html {
 }
 .panels-container {
   background: $background;
+  padding-bottom: 60px;
 }
 .panels-row {
   display: flex;
@@ -656,6 +657,75 @@ html {
   transition: 0.3s;
   background: black;
   color: white;
+}
+
+.corousal-container{
+  margin-top: 60px;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+
+  .corousal-left-container{
+    display: flex;
+  }
+.corousal-left{
+  padding: 30px 20px 30px 0px ;
+  padding-right: 0px !important;
+  display: flex;
+ justify-content: center;
+//  max-width: 100px;
+ align-items: flex-start;
+ border-right: 13px solid $orange;
+ height: 100%;
+
+}
+
+.corousal-middle{
+  padding: 30px !important ;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+
+}
+.corousal-right{
+  // padding: 30px !important;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  
+}
+.corousal-heading{
+  font-family: $heading;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 52.8px;
+  text-align: left;
+  color: rgb(17, 17, 17);
+}
+.corousal-text{
+  font-family: $font;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: rgb(17, 17, 17);
+
+}
+.corousal-button{
+background-color: $orange;
+color: white;
+border-radius: 11px;
+padding: 18px 54px;
+font-family: $font;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 1px;
+border: none;
+margin-top: 40px;
+}
+.corousal-image{
+  width: 90%;
+ 
 }
 // Media queries
 
