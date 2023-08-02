@@ -598,10 +598,12 @@ html {
   margin-top: 60px;
   padding-left: 60px !important;
   padding-right: 60px !important;
+  padding-bottom: 200px;
 }
 
 .corousal-left-container {
   display: flex;
+  height: 100%;
 }
 
 .corousal-left {
@@ -662,6 +664,57 @@ html {
   width: 90%;
 }
 
+.middle-layout-container {
+  background: rgb(249, 124, 55);
+}
+
+.middle-layout-row {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-layout {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-50%);
+  padding-top: 70px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.middle-layout-header {
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 52.8px;
+}
+
+.middle-layout-text {
+  font-family: "Open Sans";
+  line-height: 32px;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-right: 84px;
+  margin-left: 84px;
+  text-align: center;
+}
+
+.middle-layout-button {
+  background-color: rgb(249, 124, 55);
+  color: white;
+  cursor: pointer;
+  border-radius: 11px;
+  padding: 21px 50px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: none;
+  margin-top: 28px;
+}
+
 @media only screen and (max-width: 1200px) {
   .hero-image-top {
     left: 13.5%;
@@ -707,11 +760,17 @@ html {
     padding-left: 50px;
     padding-right: 50px;
   }
+  .corousal-image {
+    margin-top: 30px;
+  }
 }
 @media only screen and (max-width: 775px) {
   .over-image-row {
     padding-left: 30px !important;
     padding-right: 30px !important;
+  }
+  .corousal-image {
+    padding-left: 30px !important;
   }
 }
 @media only screen and (max-width: 770px) {
@@ -780,6 +839,17 @@ html {
     padding-right: 80px;
   }
 }
+@media only screen and (max-width: 755px) {
+  .corousal-left-container {
+    height: auto;
+  }
+  .corousal-left {
+    height: auto;
+  }
+  .corousal-middle {
+    height: auto;
+  }
+}
 @media only screen and (max-width: 575px) {
   .image-container {
     height: 800px;
@@ -800,6 +870,10 @@ html {
   .services-dis-left-header {
     line-height: 28.8px;
     font-size: 24px;
+  }
+  .corousal-heading {
+    font-size: 45px;
+    line-height: 49.5px;
   }
 }
 @media only screen and (max-width: 570px) {
@@ -877,5 +951,9 @@ html {
   }
   .services-image-right {
     height: 250px;
+  }
+  .corousal-container {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
   }
 }/*# sourceMappingURL=styles.css.map */
