@@ -259,11 +259,13 @@ html {
 
   transform: translateY(+150%);
 }
+
 .over-image {
   width: 70px !important;
   height: 70px;
   box-shadow: none !important;
 }
+
 .over-image-text {
   font-size: 22px;
   font-weight: 500;
@@ -273,6 +275,7 @@ html {
   font-family: $heading;
   text-align: center;
 }
+
 .over-image-text-second {
   font-size: 22px;
   font-weight: 500;
@@ -309,6 +312,7 @@ html {
 .imgrow-container {
   background: $background;
 }
+
 .imgrow-row {
   display: flex;
   justify-content: center;
@@ -331,6 +335,7 @@ html {
     margin-top: 10px;
   }
 }
+
 .imgrow img {
   width: 100%;
 }
@@ -352,6 +357,7 @@ html {
   margin-top: 15px;
   font-style: italic;
 }
+
 .imgrow-more {
   text-align: center;
   display: flex;
@@ -362,6 +368,7 @@ html {
   font-size: 14px;
   margin-top: 20px;
 }
+
 .imgrow-hover:hover {
   .imgrow-line-container {
     .imgrow-line {
@@ -441,6 +448,7 @@ html {
   color: rgb(17, 17, 17);
   font-size: 30px;
 }
+
 .services-dis-right-text {
   font-family: $font;
   font-size: 16px;
@@ -448,6 +456,7 @@ html {
   margin-top: 19px;
   text-align: left;
 }
+
 .services-dis-right:hover {
   .services-hover {
     transition: 0.6s;
@@ -470,15 +479,18 @@ html {
   font-size: 14px;
   margin-top: 30px;
 }
+
 .services-dis-right-line-container {
   display: flex;
   justify-content: flex-start;
 }
+
 .services-dis-right-line {
   width: 40px;
   background: $orange;
   height: 1px;
 }
+
 .services-dis-right-line:hover {
   transition: 0.3s;
   background: black;
@@ -517,6 +529,7 @@ html {
   color: white;
   font-size: 30px;
 }
+
 .services-dis-left-text {
   font-family: $font;
   font-size: 16px;
@@ -537,10 +550,12 @@ html {
   margin-top: 30px;
   color: white;
 }
+
 .services-dis-left-line-container {
   display: flex;
   justify-content: start;
 }
+
 .services-dis-left-line {
   width: 40px;
   background: black;
@@ -561,6 +576,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .services-dis-right-two {
   display: flex;
   justify-content: center;
@@ -570,6 +586,7 @@ html {
   background: black;
   color: white;
 }
+
 .services-dis-right-header-two {
   font-family: $heading;
   font-weight: 400;
@@ -584,23 +601,28 @@ html {
     margin-bottom: 30px;
   }
 }
+
 .panels-container {
   background: $background;
   padding-bottom: 60px;
 }
+
 .panels-row {
   display: flex;
   justify-content: center;
 }
+
 .panels {
   padding: 30px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .panels img {
   width: 100%;
 }
+
 .panels-over {
   background: white;
   display: flex;
@@ -610,6 +632,7 @@ html {
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   transform: translateY(-50%);
 }
+
 .panels-button {
   padding: 10px 30px 10px 30px;
   background: $orange;
@@ -621,6 +644,11 @@ html {
   border-radius: 11px;
   margin-top: 19px;
   letter-spacing: 1px;
+
+  &:hover {
+    transition: 0.2s;
+    background: rgb(46, 46, 46);
+  }
 }
 
 .panels-text {
@@ -659,46 +687,46 @@ html {
   color: white;
 }
 
-.corousal-container{
+.corousal-container {
   margin-top: 60px;
   padding-left: 60px !important;
   padding-right: 60px !important;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
 }
 
-  .corousal-left-container{
-    display: flex;
-    height: 100%;
-  }
-.corousal-left{
-  padding: 30px 20px 30px 0px ;
+.corousal-left-container {
+  display: flex;
+  height: 100%;
+}
+
+.corousal-left {
+  padding: 30px 20px 30px 0px;
   padding-right: 0px !important;
   display: flex;
- justify-content: center;
-//  max-width: 100px;
- align-items: flex-start;
- border-right: 13px solid $orange;
- height: 100%;
-
+  justify-content: center;
+  //  max-width: 100px;
+  align-items: flex-start;
+  border-right: 13px solid $orange;
+  height: 100%;
 }
 
-.corousal-middle{
+.corousal-middle {
   padding: 30px !important ;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   height: 100%;
-
 }
-.corousal-right{
+
+.corousal-right {
   // padding: 30px !important;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  
 }
-.corousal-heading{
+
+.corousal-heading {
   font-family: $heading;
   font-size: 48px;
   font-weight: 400;
@@ -712,60 +740,68 @@ html {
 // background-color: $orange;
 // height: 100%;
 // }
-.corousal-text{
+.corousal-text {
   font-family: $font;
   font-size: 16px;
   line-height: 25.6px;
   color: rgb(17, 17, 17);
+}
 
+.corousal-button {
+  background-color: $orange;
+  color: white;
+  border-radius: 11px;
+  padding: 18px 54px;
+  font-family: $font;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: none;
+  margin-top: 40px;
+
+  &:hover {
+    transition: 0.2s;
+    background: rgb(46, 46, 46);
+  }
 }
-.corousal-button{
-background-color: $orange;
-color: white;
-border-radius: 11px;
-padding: 18px 54px;
-font-family: $font;
-font-weight: 500;
-font-size: 14px;
-letter-spacing: 1px;
-border: none;
-margin-top: 40px;
-}
-.corousal-image{
+
+.corousal-image {
   width: 90%;
- 
 }
 
 // middle layout
 
-.middle-layout-container{
-background: $orange;
-
+.middle-layout-container {
+  background: $orange;
 }
-.middle-layout-row{
+
+.middle-layout-row {
   display: flex;
   justify-content: center;
 }
 
-.middle-layout{
+.middle-layout {
   background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   transform: translateY(-50%);
   padding-top: 70px;
+  padding-bottom: 70px;
   padding-left: 30px !important;
   padding-right: 30px !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.middle-layout-header{
+.middle-layout-header {
   font-family: $heading;
   font-size: 48px;
   font-weight: 400;
   line-height: 52.8px;
+  text-align: center;
 }
 
-.middle-layout-text{
+.middle-layout-text {
   font-family: $font;
   line-height: 32px;
   font-size: 20px;
@@ -775,19 +811,39 @@ background: $orange;
   text-align: center;
 }
 
-.middle-layout-button{
+.middle-layout-button {
   background-color: $orange;
-color: white;
-cursor: pointer;
-border-radius: 11px;
-padding: 21px 50px;
-font-family: $font;
-font-weight: 500;
-font-size: 18px;
-letter-spacing: 1px;
-border: none;
-margin-top: 28px;
+  color: white;
+  cursor: pointer;
+  border-radius: 11px;
+  padding: 21px 50px;
+  font-family: $font;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: none;
+  margin-top: 28px;
+
+  &:hover {
+    transition: 0.2s;
+    background: rgb(46, 46, 46);
+  }
 }
+
+//contact form
+
+.form-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 // Media queries
 
 @media only screen and (max-width: 1200px) {
@@ -837,8 +893,17 @@ margin-top: 28px;
     padding-left: 50px;
     padding-right: 50px;
   }
-  .corousal-image{
+  .corousal-image {
     margin-top: 30px;
+  }
+  .middle-layout-header {
+    font-size: 35px;
+    line-height: 45.8px;
+  }
+
+  .middle-layout-text {
+    line-height: 26px;
+    font-size: 18px;
   }
 }
 
@@ -847,8 +912,12 @@ margin-top: 28px;
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
-  .corousal-image{
+  .corousal-image {
     padding-left: 30px !important;
+  }
+  .middle-layout-text {
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
 @media only screen and (max-width: 770px) {
@@ -930,15 +999,24 @@ margin-top: 28px;
   }
 }
 @media only screen and (max-width: 755px) {
-.corousal-left-container{
-  height:auto;
-}
-.corousal-left{
-  height: auto;
-}
-.corousal-middle{
-  height: auto;
-}
+  .corousal-left-container {
+    height: auto;
+  }
+  .corousal-left {
+    height: auto;
+  }
+  .corousal-middle {
+    height: auto;
+  }
+  .middle-layout-button {
+    padding: 16px 40px;
+    font-size: 16px;
+
+    &:hover {
+      transition: 0.2s;
+      background: rgb(46, 46, 46);
+    }
+  }
 }
 @media only screen and (max-width: 575px) {
   .image-container {
@@ -963,7 +1041,7 @@ margin-top: 28px;
     line-height: 28.8px;
     font-size: 24px;
   }
-  .corousal-heading{  
+  .corousal-heading {
     font-size: 45px;
     line-height: 49.5px;
   }
@@ -1049,7 +1127,7 @@ margin-top: 28px;
   .services-image-right {
     height: 250px;
   }
-  .corousal-container{
+  .corousal-container {
     padding-left: 25px !important ;
     padding-right: 25px !important ;
   }
