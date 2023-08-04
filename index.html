@@ -532,16 +532,23 @@
 
       <div class="row contact-row">
         <div class="col-md-8 form-container">
-          <div class="col-md-6 form-wrap">
+          <div class="col-md-6 form-wrap" data-aos="fade-right"
+          data-aos-duration="1500">
             <div class="form-header">Get In Touch</div>
             <form class="form">
-              <input class="input" type="text" placeholder="Enter your name" />
-              <input class="input" type="text" placeholder="Enter a valid email address" />
-              <input class="input" type="textarea" placeholder="Enter your message" />
+              <input class="input" type="text" placeholder="Enter your name" name="name"/>
+              <input class="input" type="text" placeholder="Enter a valid email address" name="email" />
+              <textarea class="input" type="textarea" placeholder="Enter your message" name="message"></textarea>
+              <button class="input-button">SUBMIT</button>
             </form>
           </div>
-          <div class="col-md-6 faq-wrap"></div>
+          <div class="col-md-6 faq-wrap" data-aos="fade-left"
+          data-aos-duration="1500"></div>
         </div>
+      </div>
+
+      <div class="row footer">
+        Text in here
       </div>
     </div>
 

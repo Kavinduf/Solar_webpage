@@ -834,6 +834,7 @@ html {
 .contact-row{
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .form-container{
@@ -872,6 +873,23 @@ html {
   padding: 10px;
   border: none;
 }
+.input-button{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 11px;
+  border: 2px solid white;
+  background: none;
+  font-weight: 700;
+  font-family: $font;
+  font-size: 16px;
+  line-height: 25.6px;
+
+}
 
 .faq-wrap{
   background-color: rgb(230, 230, 230);
@@ -883,6 +901,12 @@ html {
   margin-left: 20px;
 }
 
+.footer{
+  background: rgb(51, 51, 51);
+  height: 200px;
+  padding: 100px;
+  
+}
 
 // Media queries
 
