@@ -788,6 +788,11 @@ html {
   font-size: 16px;
   line-height: 25.6px;
 }
+.input-button:hover {
+  transition: 0.2s;
+  background: white;
+  color: rgb(249, 124, 55);
+}
 
 .faq-wrap {
   background-color: rgb(230, 230, 230);

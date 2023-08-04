@@ -889,6 +889,11 @@ html {
   font-size: 16px;
   line-height: 25.6px;
 
+  &:hover {
+    transition: 0.2s;
+    background: white;
+    color: $orange;
+  }
 }
 
 .faq-wrap{
