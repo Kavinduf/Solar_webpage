@@ -831,18 +831,58 @@ html {
 }
 
 //contact form
+.contact-row{
+  display: flex;
+  justify-content: center;
+}
 
+.form-container{
+  display: flex;
+  justify-content: center;
+}
 .form-wrap {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-right: 20px;
+  
+}
+
+.form-header{
+  font-weight: 400;
+  font-family: $heading;
+  color: white;
+  font-size: 48px;
+  line-height: 52.8px;
+  text-align: left;
+  margin-bottom: 20px;
+
 }
 
 .form {
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }
+
+.input{
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+}
+
+.faq-wrap{
+  background-color: rgb(230, 230, 230);
+  padding: 30px;
+  color: rgb(17, 17, 17);
+  font-family: $font;
+  font-size: 16px;
+  line-height: 25.6px;
+  margin-left: 20px;
+}
+
 
 // Media queries
 
