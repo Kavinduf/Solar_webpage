@@ -13,6 +13,8 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+// ------------------- header -------------------
+
 .header-row {
   display: flex;
   justify-content: center;
@@ -51,6 +53,8 @@ html {
 //   background-size: cover;
 //   position: relative;
 // }
+
+// ------------------- hero -------------------
 
 .hero-image {
   background-image: url("../Images/mother-with-her-little-son-by-solar-panels2.jpg");
@@ -116,6 +120,8 @@ html {
   background: rgb(46, 46, 46);
 }
 
+// ------------------- details -------------------
+
 .details-container {
   background-color: $orange;
   padding: 0;
@@ -170,6 +176,8 @@ html {
 //   animation: swing 1s ease-in-out;
 // }
 
+// ------------------- quote -------------------
+
 .quote-container {
   background: $orange;
   padding-top: 100px;
@@ -193,6 +201,8 @@ html {
   text-align: center;
   color: white;
 }
+
+// ------------------- Background image -------------------
 
 .image-container {
   display: flex;
@@ -236,6 +246,8 @@ html {
   // border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+// ------------------- over image background -------------------
 
 .over-image-row {
   position: absolute;
@@ -285,6 +297,9 @@ html {
   text-align: center;
 }
 
+
+// ------------------- second container -------------------
+
 .second-container {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -308,6 +323,8 @@ html {
   text-align: center;
   color: rgb(17, 17, 17);
 }
+
+// ------------------- imggrow -------------------
 
 .imgrow-container {
   background: $background;
@@ -389,6 +406,8 @@ html {
   height: 1px;
 }
 
+// ------------------- Third container -------------------
+
 .third-container {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -422,6 +441,8 @@ html {
   font-size: 16px;
 }
 
+// ------------------- services -------------------
+
 .services-image-left {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -432,6 +453,7 @@ html {
   background-size: cover;
 }
 
+// ------------------- services-right -------------------
 .services-dis-right {
   display: flex;
   justify-content: center;
@@ -506,6 +528,8 @@ html {
   background-size: cover;
 }
 
+// ------------------- services-left -------------------
+
 .services-dis-left {
   display: flex;
   justify-content: center;
@@ -567,6 +591,8 @@ html {
   background: white;
 }
 
+// ------------------- services-left-two -------------------
+
 .services-image-left-two {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -577,6 +603,8 @@ html {
   background-size: cover;
 }
 
+
+// ------------------- services-right-two -------------------
 .services-dis-right-two {
   display: flex;
   justify-content: center;
@@ -601,6 +629,9 @@ html {
     margin-bottom: 30px;
   }
 }
+
+
+// ------------------- panels -------------------
 
 .panels-container {
   background: $background;
@@ -687,6 +718,9 @@ html {
   color: white;
 }
 
+
+// ------------------- corousal -------------------
+
 .corousal-container {
   margin-top: 60px;
   padding-left: 60px !important;
@@ -769,7 +803,8 @@ html {
   width: 90%;
 }
 
-// middle layout
+
+// ------------------- middle layout -------------------
 
 .middle-layout-container {
   background: $orange;
@@ -830,7 +865,9 @@ html {
   }
 }
 
-//contact form
+
+// ------------------- contact form -------------------
+
 .contact-row{
   display: flex;
   justify-content: center;
@@ -909,12 +946,18 @@ html {
   margin-left: 20px;
 }
 
+
+// ------------------- footer -------------------
+
 .footer{
   background: rgb(51, 51, 51);
   height: 200px;
   padding: 100px;
   
 }
+
+
+// ------------------- accordion -------------------
 
 .accordion-wrap{
   display: flex;
@@ -964,7 +1007,8 @@ html {
   transition: max-height 0.2s ease-out;
 }
 
-// Media queries
+
+// ------------------- media queries -------------------
 
 @media only screen and (max-width: 1200px) {
   .hero-image-top {
