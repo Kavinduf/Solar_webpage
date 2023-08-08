@@ -531,19 +531,36 @@
       </div>
 
       <div class="row contact-row">
-        <div class="col-md-8 form-container">
-          <div class="col-md-6 form-wrap" data-aos="fade-right"
-          data-aos-duration="1500">
-            <div class="form-header">Get In Touch</div>
-            <form class="form">
-              <input class="input" type="text" placeholder="Enter your name" name="name"/>
-              <input class="input" type="text" placeholder="Enter a valid email address" name="email" />
-              <textarea class="input" type="textarea" placeholder="Enter your message" name="message"></textarea>
-              <button class="input-button">SUBMIT</button>
-            </form>
+        <div class="col-md-10 form-container">
+          <div class="row form-row">
+            <div class="col-md-5 form-wrap" data-aos="fade-right"
+            data-aos-duration="1500">
+              <div class="form-header">Get In Touch</div>
+              <form class="form">
+                <input class="input" type="text" placeholder="Enter your name" name="name"/>
+                <input class="input" type="text" placeholder="Enter a valid email address" name="email" />
+                <textarea class="input" type="textarea" placeholder="Enter your message" name="message"></textarea>
+                <button class="input-button">SUBMIT</button>
+              </form>
+            </div>
+            <div class="col-md-5 accordian-wrap" data-aos="fade-left"
+            data-aos-duration="1500">
+            <button class="accordion">Phasellus sed efficitur dolor?</button>
+            <div class="panel">
+              <p>Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet..</p>
+            </div>
+            
+            <button class="accordion">Quisque fringilla sit amet dolor?</button>
+            <div class="panel">
+              <p>Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</p>
+            </div>
+            
+            <button class="accordion">SQuisque fringilla sit amet dolor?</button>
+            <div class="panel">
+              <p>Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</p>
+            </div>
+            </div>
           </div>
-          <div class="col-md-6 faq-wrap" data-aos="fade-left"
-          data-aos-duration="1500"></div>
         </div>
       </div>
 
@@ -556,5 +573,21 @@
     <script>
       AOS.init();
     </script>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+      </script>
   </body>
 </html>
