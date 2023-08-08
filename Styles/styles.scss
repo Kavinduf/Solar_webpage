@@ -989,7 +989,6 @@ html {
     padding-right: 20px !important;
   }
 }
-
 @media only screen and (max-width: 990px) {
   .hero-image-top {
     left: 13.5%;
@@ -1024,22 +1023,6 @@ html {
   .middle-layout-text {
     line-height: 26px;
     font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 775px) {
-
-  .form-row{
-    margin-left: 50px !important;
-    margin-right: 50px !important; 
-  }
-  .form-wrap{
-    margin-bottom: 50px;
-    margin-right:0px ;
-  }
-  .accordion-wrap{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
   }
 }
 @media only screen and (max-width: 775px) {
@@ -1133,6 +1116,26 @@ html {
     padding-right: 80px;
   }
 }
+@media only screen and (max-width: 750px) {
+
+  .form-row{
+    margin-left: 50px !important;
+    margin-right: 50px !important; 
+  }
+  .form-wrap{
+    margin-bottom: 50px;
+    margin-right:0px ;
+  }
+  .accordion-wrap{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .form-header{
+    font-size: 36px;
+    line-height: 46%;
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 755px) {
   .corousal-left-container {
     height: auto;
@@ -1220,7 +1223,6 @@ html {
     margin-right: 20px !important; 
   }
 }
-
 @media only screen and (max-width: 480px) {
   .image-container {
     width: 100%;

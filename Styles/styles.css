@@ -922,20 +922,6 @@ html {
   }
 }
 @media only screen and (max-width: 775px) {
-  .form-row {
-    margin-left: 50px !important;
-    margin-right: 50px !important;
-  }
-  .form-wrap {
-    margin-bottom: 50px;
-    margin-right: 0px;
-  }
-  .accordion-wrap {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-}
-@media only screen and (max-width: 775px) {
   .over-image-row {
     padding-left: 30px !important;
     padding-right: 30px !important;
@@ -1012,6 +998,25 @@ html {
   .panels-over {
     padding-left: 80px;
     padding-right: 80px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .form-row {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+  .form-wrap {
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+  .accordion-wrap {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .form-header {
+    font-size: 36px;
+    line-height: 46%;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 755px) {

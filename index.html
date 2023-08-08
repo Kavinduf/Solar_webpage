@@ -576,16 +576,28 @@
     <script>
       var acc = document.getElementsByClassName("accordion");
       var i;
+      var currentlyOpenPanel = null;
       
       for (i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function() {
+          // Close the currently open panel if there is one
+          if (currentlyOpenPanel && currentlyOpenPanel !== this) {
+            currentlyOpenPanel.classList.remove("active");
+            var currentPanel = currentlyOpenPanel.nextElementSibling;
+            currentPanel.style.maxHeight = null;
+          }
+          
           this.classList.toggle("active");
           var panel = this.nextElementSibling;
+          
           if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
           } else {
             panel.style.maxHeight = panel.scrollHeight + "px";
           }
+          
+          // Set the clicked panel as the currently open panel
+          currentlyOpenPanel = this.classList.contains("active") ? this : null;
         });
       }
       </script>
